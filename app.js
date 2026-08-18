@@ -10,6 +10,7 @@ Object.assign(translations.en, {
   orbitCaption:'Cognition and reasoning build capability; agents turn capability into action; dual safeguards run throughout the system on the path to safe and trustworthy AGI.',
   frameworkTitle:'Research framework', foundationLayer:'Capability foundation', agencyLayer:'Autonomous action', safetyLayer:'Dual safety assurance', researchGoal:'RESEARCH GOAL', safeAgi:'Safe & Trustworthy General Intelligence', frameworkCaption:'From understanding and reasoning, through autonomous action and systematic safeguards, toward verifiable and controllable general intelligence.',
   recentWork:'Recent research', viewStudy:'View research overview →',
+  labGitHub:'Visit the lab GitHub →',
   newsText:'We welcome undergraduate, master’s, PhD and research interns working on foundation models, agents and AI security.',
   workTitle:'Representative research', allPapers:'View publication list →', figureFromPaper:'Core figure from the paper',
   problem:'Problem', method:'Approach', result:'Key result', readPaper:'Read paper ↗',
