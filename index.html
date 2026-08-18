@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="上海大学人工智能认知与安全实验室（SAGE Lab）官方网站" />
+    <meta name="theme-color" content="#f7f7f4" />
+    <link rel="icon" type="image/png" href="/assets/icon/favicon.png" />
+    <title>SAGE Lab · Shanghai University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">跳至正文</a>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="SAGE Lab 首页">
+        <img class="brand-logo" src="/assets/icon/sage-logo-web.png" alt="" width="48" height="48" aria-hidden="true">
+        <span class="brand-word">SAGE<span>LAB</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a href="#people" data-i18n="navPeople">成员</a>
+        <a href="#research" data-i18n="navResearch">研究</a>
+        <a href="#work" data-i18n="navWork">成果</a>
+        <a href="#demos" data-i18n="navDemos">Demo</a>
+        <a href="#join" data-i18n="navJoin">加入我们</a>
+      </nav>
+      <div class="header-actions">
+        <button class="language-toggle" type="button" aria-label="Switch to English"><span class="active">中</span><span>EN</span></button>
+        <button class="menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false"><span></span><span></span></button>
+      </div>
+      <nav class="mobile-nav" aria-label="移动端导航">
+        <a href="#people" data-i18n="navPeople">成员</a>
+        <a href="#research" data-i18n="navResearch">研究</a>
+        <a href="#work" data-i18n="navWork">成果</a>
+        <a href="#demos" data-i18n="navDemos">Demo</a>
+        <a href="#join" data-i18n="navJoin">加入我们</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <h1 id="hero-title"><span data-i18n="heroLine1">让智能理解世界，</span><br><em data-i18n="heroLine2">也值得世界信任。</em></h1>
+          <p class="lab-expansion">SAGE LAB · SECURE AI, GENERAL INTELLIGENCE &amp; EVOLUTION</p>
+          <p class="hero-intro" data-i18n="heroIntro">我们研究机器如何感知、推理与行动，也研究它们如何在真实世界中保持可靠、安全与可控。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#research"><span data-i18n="explore">探索研究</span><b aria-hidden="true">↘</b></a>
+            <a class="button text-button" href="#join" data-i18n="openings">查看招生信息</a>
+          </div>
+        </div>
+        <aside class="hero-framework reveal" aria-label="通往安全可信 AGI 的交互式研究关系图">
+          <div class="sagi-orbit">
+            <div class="orbit-system">
+              <div class="sagi-ring ring-outer" aria-hidden="true"></div>
+              <div class="sagi-ring ring-inner" aria-hidden="true"></div>
+              <span class="orbit-marker marker-one" aria-hidden="true"></span>
+              <span class="orbit-marker marker-two" aria-hidden="true"></span>
+              <button class="sagi-node orbit-cognition" type="button" data-orbit-topic="cognition"><span class="node-index">01</span><strong data-i18n="r1Title">多模态认知与推理</strong><small>COGNITION</small><span class="subtopic-orbit"><span data-i18n="cogSub1">多模态</span><span data-i18n="cogSub2">推理机制</span><span data-i18n="cogSub3">对齐</span></span></button>
+              <button class="sagi-node orbit-agent" type="button" data-orbit-topic="agent"><span class="node-index">02</span><strong data-i18n="r2Title">自主进化智能体</strong><small>EVOLVING AGENTS</small><span class="subtopic-orbit"><span data-i18n="agentSub1">递归自进化</span><span data-i18n="agentSub2">在线自蒸馏</span><span data-i18n="agentSub3">持续适应</span></span></button>
+              <button class="sagi-node orbit-ai-security" type="button" data-orbit-topic="aiSecurity"><span class="node-index">03</span><strong data-i18n="r3Title">人工智能安全</strong><small>AI SECURITY</small><span class="subtopic-orbit"><span data-i18n="aiSub1">越狱攻防</span><span data-i18n="aiSub2">红队测试</span><span data-i18n="aiSub3">后门攻击</span></span></button>
+              <button class="sagi-node orbit-media-security" type="button" data-orbit-topic="mediaSecurity"><span class="node-index">04</span><strong data-i18n="r4Title">多媒体信息安全</strong><small>MEDIA SECURITY</small><span class="subtopic-orbit"><span data-i18n="mediaSub1">信息隐藏</span><span data-i18n="mediaSub2">数字取证</span><span data-i18n="mediaSub3">数字水印</span></span></button>
+            </div>
+            <div class="sagi-core">
+              <span class="core-kicker" data-i18n="researchGoal">研究目标</span>
+              <strong class="core-title" data-i18n="safeAgi">安全可信的通用智能</strong>
+              <div class="core-subtopics"><small>SAFE &amp; TRUSTWORTHY AGI</small></div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="signal-strip" aria-label="实验室动态">
+        <div class="signal-label" data-i18n="latest">最新动态</div>
+        <div class="signal-copy"><span>2026.08</span><p data-i18n="newsText">实验室长期招收大模型、智能体与人工智能安全方向的本科生、硕士生、博士生及科研实习生。</p></div>
+        <a href="#join" data-i18n="details">详情 →</a>
+      </section>
+
+      <section class="section people" id="people">
+        <div class="section-head reveal">
+          <p class="section-index">01 / PEOPLE</p>
+          <h2 data-i18n="peopleTitle">保持好奇，保持严谨。</h2>
+          <p data-i18n="peopleIntro">我们是一群关心长期问题、也愿意动手解决真实问题的研究者。</p>
+        </div>
+        <div class="faculty-grid">
+          <article class="faculty-card reveal">
+            <div class="portrait portrait-zhang"><img src="/assets/faculty/xinpeng-zhang.jpeg" alt="张新鹏教授" loading="lazy" width="287" height="341"></div>
+            <div class="faculty-copy"><span data-i18n="academicLead">学术带头人</span><h3 data-i18n="zhangName">张新鹏 教授</h3><p data-i18n="zhangRole">上海大学计算机工程与科学学院院长 · 国家杰出青年科学基金获得者</p><div class="faculty-tags"><span data-i18n="aiSafety">人工智能安全</span><span data-i18n="mediaSecurity">多媒体信息安全</span></div><a href="https://cs.shu.edu.cn/info/1461/40581.htm" target="_blank" rel="noreferrer" data-i18n="profile">个人主页 ↗</a></div>
+          </article>
+          <article class="faculty-card reveal">
+            <div class="portrait portrait-cheng"><img src="/assets/faculty/pengzhou-cheng.jpg" alt="程彭洲老师" loading="lazy" width="258" height="320"></div>
+            <div class="faculty-copy"><span data-i18n="principalInvestigator">核心成员</span><h3 data-i18n="chengName">程彭洲 博士</h3><p data-i18n="chengRole">上海大学计算机工程与科学学院助理教授</p><div class="faculty-tags"><span data-i18n="multimodal">多模态推理</span><span data-i18n="agentSafety">智能体安全</span></div><a href="https://ctzhou-byte.github.io/" target="_blank" rel="noreferrer" data-i18n="profile">个人主页 ↗</a></div>
+          </article>
+        </div>
+        <div class="student-head"><h3 data-i18n="students">学生成员</h3><span data-i18n="studentNote">成员资料持续更新</span></div>
+        <div class="student-grid">
+          <article class="student-card"><div class="student-avatar photo-avatar"><img src="/assets/students/Xinjie Lai.png" alt="Xinjie Lai" loading="lazy" width="375" height="375"></div><h4>Xinjie Lai</h4><p data-i18n="doctoral2025">2025级博士研究生</p><span>Agent Behavior Safety</span></article>
+          <article class="student-card"><div class="student-avatar photo-avatar"><img src="/assets/students/Weihao Zuo.png" alt="Weihao Zuo" loading="lazy" width="375" height="375"></div><h4>Weihao Zuo</h4><p data-i18n="doctoral2025">2025级博士研究生</p><span>Agent Behavior Safety</span></article>
+          <article class="student-card"><div class="student-avatar a3">JW</div><h4 data-i18n="student3">学生姓名</h4><p data-i18n="master">硕士研究生</p><span>Model Security</span></article>
+          <article class="student-card"><div class="student-avatar a4">LM</div><h4 data-i18n="student4">学生姓名</h4><p data-i18n="undergrad">本科生</p><span>Media Forensics</span></article>
+          <a class="student-card join-card" href="#join"><span>+</span><h4 data-i18n="youMaybe">也许下一个是你</h4><p data-i18n="viewOpenings">查看开放方向 →</p></a>
+        </div>
+      </section>
+
+      <section class="section research" id="research">
+        <div class="section-head reveal">
+          <p class="section-index">02 / RESEARCH</p>
+          <h2 data-i18n="researchTitle">在智能的能力边界，<br>建立安全边界。</h2>
+          <p data-i18n="researchIntro">我们把认知能力与安全机制放在同一套研究框架中，从基础模型的推理机理出发，走向可验证、可部署的智能系统。</p>
+        </div>
+        <div class="research-list">
+          <article class="research-row reveal" tabindex="0">
+            <span class="row-number">01</span>
+            <div><h3 data-i18n="r1Title">多模态认知与推理</h3><p data-i18n="r1Text">理解视觉、语言与环境反馈之间的因果联系，提升复杂任务中的组合推理能力。</p></div>
+            <div class="keyword-stack"><span>Multimodal LLM</span><span>Reasoning</span><span>Alignment</span></div>
+            <span class="row-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="research-row reveal" tabindex="0">
+            <span class="row-number">02</span>
+            <div><h3 data-i18n="r2Title">自主进化智能体</h3><p data-i18n="r2Text">研究智能体如何通过递归自进化、在线自蒸馏与持续环境反馈，不断提升推理、行动与任务泛化能力。</p></div>
+            <div class="keyword-stack"><span>Recursive Self-Evolution</span><span>Online Self-Distillation</span><span>Continual Adaptation</span></div>
+            <span class="row-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="research-row reveal" tabindex="0">
+            <span class="row-number">03</span>
+            <div><h3 data-i18n="r3Title">人工智能安全</h3><p data-i18n="r3Text">研究模型与智能体的攻击面、风险评测和防御方法，使人工智能系统更可靠、可控。</p></div>
+            <div class="keyword-stack"><span>Agent Security</span><span>Red Teaming</span><span>Trustworthiness</span></div>
+            <span class="row-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="research-row reveal" tabindex="0">
+            <span class="row-number">04</span>
+            <div><h3 data-i18n="r4Title">多媒体信息安全</h3><p data-i18n="r4Text">探索隐写、取证与隐私保护中的理论和方法，守护数字内容的真实性与机密性。</p></div>
+            <div class="keyword-stack"><span>Forensics</span><span>Steganography</span><span>Privacy</span></div>
+            <span class="row-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section featured-work" id="work">
+        <div class="section-head compact reveal">
+          <p class="section-index">03 / SELECTED WORK</p>
+          <h2 data-i18n="workTitle">代表性研究方案</h2>
+          <a href="https://cs.shu.edu.cn/info/1481/51591.htm" target="_blank" rel="noreferrer" data-i18n="allPapers">查看论文列表 →</a>
+        </div>
+        <div class="research-showcase">
+          <article class="research-case reveal">
+            <figure class="case-visual faithful-figure">
+              <img src="/assets/research/faithful-agent-method.jpg" alt="Faithful-Agent 忠实数据集、两阶段训练与引导优势估计器方法总览" loading="lazy">
+              <figcaption><span>FIG. 01</span><span data-i18n="figureFromPaper">论文核心方法图</span></figcaption>
+            </figure>
+            <div class="case-content">
+              <div class="case-meta"><span>TRUSTWORTHY GUI AGENTS</span><span>ICML · 2026</span></div>
+              <h3>Faithful Mobile GUI Agents</h3>
+              <p class="case-lead" data-i18n="faithfulLead">让移动 GUI 智能体依据屏幕证据和用户指令行动，在关键信息缺失或冲突时学会停止、返回或重新确认，而不是凭记忆盲目执行。</p>
+              <dl class="solution-grid">
+                <div><dt data-i18n="authors">作者</dt><dd>Haowen Hu<sup>†</sup>, Pengzhou Cheng<sup>†</sup>, Zheng Wu, Lingzhong Dong, Gongshen Liu, Zhuosheng Zhang</dd></div>
+                <div><dt data-i18n="problem">研究问题</dt><dd data-i18n="faithfulProblem">GUI 智能体可能依赖训练中记忆的操作捷径，在界面遮挡、指令冲突或证据不足时产生无依据操作。</dd></div>
+                <div><dt data-i18n="method">核心方法</dt><dd data-i18n="faithfulMethod">先以忠实性数据进行 SFT 冷启动，再通过结合思维—动作一致性奖励的 RFT 与引导优势估计器 GuAE 稳定训练。</dd></div>
+                <div><dt data-i18n="result">关键结果</dt><dd><strong>80.21%</strong><span data-i18n="faithfulResult">Trap 场景成功率，由基线的 13.88% 显著提升</span></dd></div>
+              </dl>
+              <div class="case-links"><a href="https://arxiv.org/abs/2605.01208" target="_blank" rel="noreferrer" data-i18n="readPaper">阅读论文 ↗</a><a href="https://github.com/Dreamer777hhw/Faithful-Agent" target="_blank" rel="noreferrer">Code ↗</a></div>
+            </div>
+          </article>
+
+          <article class="research-case reveal">
+            <figure class="case-visual">
+              <img src="/assets/research/agentghost-method.png" alt="AgentGhost 后门攻击场景、正常行为与触发行为对比图" loading="lazy">
+              <figcaption><span>FIG. 02</span><span data-i18n="figureFromPaper">论文核心方法图</span></figcaption>
+            </figure>
+            <div class="case-content">
+              <div class="case-meta"><span>AGENT SECURITY</span><span>EMNLP FINDINGS · 2025</span></div>
+              <h3>Hidden Ghost Hand</h3>
+              <p class="case-lead" data-i18n="ghostLead">揭示多模态移动 GUI 智能体中的供应链后门风险，并提出可用于系统化红队测试的 AgentGhost 框架。</p>
+              <dl class="solution-grid">
+                <div><dt data-i18n="problem">研究问题</dt><dd data-i18n="ghostProblem">第三方模型可能利用目标与交互历史的组合条件，在完成正常任务时隐蔽触发恶意动作。</dd></div>
+                <div><dt data-i18n="method">核心方法</dt><dd data-i18n="ghostMethod">组合目标级与交互级触发器，以 Min-Max 优化平衡攻击隐蔽性、有效性和正常任务能力。</dd></div>
+                <div><dt data-i18n="result">关键结果</dt><dd><strong>99.7%</strong><span data-i18n="ghostResult">最高攻击成功率；针对性防御将其降至 22.1%</span></dd></div>
+              </dl>
+              <div class="case-links"><a href="https://aclanthology.org/2025.findings-emnlp.411/" target="_blank" rel="noreferrer" data-i18n="readPaper">阅读论文 ↗</a><a href="https://github.com/CTZhou-byte/AgentGhost" target="_blank" rel="noreferrer">Code ↗</a></div>
+            </div>
+          </article>
+
+          <article class="research-case reverse reveal">
+            <figure class="case-visual portrait-figure">
+              <img src="/assets/research/os-kairos-method.png" alt="OS-Kairos 自主执行与自适应交互流程对比图" loading="lazy">
+              <figcaption><span>FIG. 03</span><span data-i18n="figureFromPaper">论文核心方法图</span></figcaption>
+            </figure>
+            <div class="case-content">
+              <div class="case-meta"><span>HUMAN–AGENT COLLABORATION</span><span>ACL FINDINGS · 2025</span></div>
+              <h3>OS-Kairos</h3>
+              <p class="case-lead" data-i18n="kairosLead">让 GUI 智能体在每一步评估自身置信度：有把握时自主行动，不确定时主动请求人类介入。</p>
+              <dl class="solution-grid">
+                <div><dt data-i18n="problem">研究问题</dt><dd data-i18n="kairosProblem">全自动智能体在指令歧义、突发中断与环境劫持场景中容易过度执行并造成任务失败。</dd></div>
+                <div><dt data-i18n="method">核心方法</dt><dd data-i18n="kairosMethod">通过协作式探测生成逐步置信度标注，再用置信度驱动自适应的人机交互策略。</dd></div>
+                <div><dt data-i18n="result">关键结果</dt><dd><strong>24.59–87.29%</strong><span data-i18n="kairosResult">在复杂场景与公开基准上的任务成功率提升</span></dd></div>
+              </dl>
+              <div class="case-links"><a href="https://aclanthology.org/2025.findings-acl.348/" target="_blank" rel="noreferrer" data-i18n="readPaper">阅读论文 ↗</a><a href="https://github.com/Wuzheng02/OS-Kairos" target="_blank" rel="noreferrer">Code ↗</a></div>
+            </div>
+          </article>
+
+          <article class="research-case reveal">
+            <figure class="case-visual genptw-figure">
+              <img src="/assets/research/genptw-method.png" alt="GenPTW 生成水印嵌入、恶意篡改与水印提取流程图" loading="lazy">
+              <figcaption><span>FIG. 04</span><span data-i18n="figureFromPaper">论文核心方法图</span></figcaption>
+            </figure>
+            <div class="case-content">
+              <div class="case-meta"><span>AIGC FORENSICS</span><span>AAAI · 2026</span></div>
+              <h3>GenPTW</h3>
+              <p class="case-lead" data-i18n="genptwLead">在图像生成阶段写入结构化水印，把内容来源追踪与篡改区域定位统一到同一套取证框架中。</p>
+              <dl class="solution-grid">
+                <div><dt data-i18n="problem">研究问题</dt><dd data-i18n="genptwProblem">现有方法常依赖生成后处理或参考图像，难以同时兼顾溯源、局部篡改定位与视觉质量。</dd></div>
+                <div><dt data-i18n="method">核心方法</dt><dd data-i18n="genptwMethod">在潜空间进行跨注意力与空间融合，并以频率协同解码器提取水印和定位篡改。</dd></div>
+                <div><dt data-i18n="result">研究价值</dt><dd><strong>2-in-1</strong><span data-i18n="genptwResult">统一实现来源追踪与篡改定位，适配多类生成模型</span></dd></div>
+              </dl>
+              <div class="case-links"><a href="https://arxiv.org/abs/2504.19567" target="_blank" rel="noreferrer" data-i18n="readPaper">阅读论文 ↗</a></div>
+            </div>
+          </article>
+
+          <article class="research-case reverse reveal">
+            <figure class="case-visual">
+              <img src="/assets/research/behavior-safety.png" alt="自主交互智能体发展阶段与行为安全风险图谱" loading="lazy">
+              <figcaption><span>FIG. 05</span><span data-i18n="figureFromPaper">论文核心方法图</span></figcaption>
+            </figure>
+            <div class="case-content">
+              <div class="case-meta"><span>AGENT BEHAVIOR SAFETY</span><span>SURVEY · 2026</span></div>
+              <h3>Behavior Safety of Autonomous Interactive Agents</h3>
+              <p class="case-lead" data-i18n="behaviorLead">从行为层面系统梳理自主交互智能体的风险、攻击、防御与评测方法，为安全研究建立统一问题空间。</p>
+              <dl class="solution-grid">
+                <div><dt data-i18n="authors">作者</dt><dd>Xinjie Lai, Weihao Zuo, Zheng Wu, Tianjie Ju, Haodong Zhao, Xiaofeng Zhang, Zhuosheng Zhang, Gongshen Liu, Xinpeng Zhang, Pengzhou Cheng</dd></div>
+                <div><dt data-i18n="scope">研究范围</dt><dd data-i18n="behaviorScope">覆盖自主工具调用、环境交互和长程任务中的行为风险，并连接攻击机制与防御策略。</dd></div>
+                <div><dt data-i18n="value">研究价值</dt><dd><strong>4-part</strong><span data-i18n="behaviorValue">以风险、攻击、防御和评测组织智能体行为安全研究</span></dd></div>
+              </dl>
+              <div class="case-links"><a href="https://wuzheng02.github.io/" target="_blank" rel="noreferrer" data-i18n="viewRecord">查看公开记录 ↗</a></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section demos" id="demos">
+        <div class="section-head reveal">
+          <p class="section-index">04 / LIVE SYSTEMS</p>
+          <h2 data-i18n="demoTitle">不只发表论文，<br>也构建可用的系统。</h2>
+          <p data-i18n="demoIntro">通过交互式 Demo，直观看见模型如何思考、智能体如何行动，以及安全机制如何介入。</p>
+        </div>
+        <div class="demo-tabs" role="tablist" aria-label="Demo 分类">
+          <button class="active" role="tab" aria-selected="true" data-filter="all" data-i18n="filterAll">全部</button>
+          <button role="tab" aria-selected="false" data-filter="agent" data-i18n="filterAgent">智能体</button>
+          <button role="tab" aria-selected="false" data-filter="security" data-i18n="filterSecurity">安全</button>
+          <button role="tab" aria-selected="false" data-filter="multimodal" data-i18n="filterMultimodal">多模态</button>
+        </div>
+        <div class="demo-grid">
+          <article class="demo-card dark reveal" data-category="agent security">
+            <div class="demo-preview terminal"><div class="terminal-bar"><span></span><span></span><span></span><b>AGENT TRACE / LIVE</b></div><div class="trace"><i>01</i><p>Observe environment</p><em>done</em><i>02</i><p>Inspect tool policy</p><em>done</em><i>03</i><p>Block unsafe action</p><em class="alert">blocked</em></div></div>
+            <div class="demo-info"><span>AGENT SAFETY</span><h3>SAGE Guard</h3><p data-i18n="demo1Desc">实时观察并拦截智能体的高风险工具调用。</p><button class="launch-demo" data-demo="guard"><span data-i18n="launch">启动 Demo</span><b>↗</b></button></div>
+          </article>
+          <article class="demo-card reveal" data-category="multimodal">
+            <div class="demo-preview vision"><div class="focus-box"></div><div class="vision-label">OBJECT / 0.97</div><div class="vision-noise"></div></div>
+            <div class="demo-info"><span>MULTIMODAL REASONING</span><h3>SceneThink</h3><p data-i18n="demo2Desc">可视化多模态模型对复杂场景的推理过程。</p><button class="launch-demo" data-demo="scene"><span data-i18n="launch">启动 Demo</span><b>↗</b></button></div>
+          </article>
+          <article class="demo-card reveal" data-category="security">
+            <div class="demo-preview matrix"><div class="matrix-core">AUTHENTIC</div></div>
+            <div class="demo-info"><span>MEDIA FORENSICS</span><h3>OriginTrace</h3><p data-i18n="demo3Desc">检测生成内容，并提供可解释的溯源线索。</p><button class="launch-demo" data-demo="trace"><span data-i18n="launch">启动 Demo</span><b>↗</b></button></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-head compact reveal"><p class="section-index">05 / PROJECTS</p><h2 data-i18n="projectTitle">开源与项目</h2></div>
+        <div class="project-grid">
+          <article class="project-card reveal"><div class="project-top"><span>OPEN SOURCE</span><b>4.9K+ <small>STARS</small></b></div><h3 data-i18n="project1">动手学大模型</h3><p data-i18n="project1Desc">面向开发者与研究者的公益开源大模型教程，程彭洲参与建设。</p><a href="https://github.com/Lordog/dive-into-llms" target="_blank" rel="noreferrer">GitHub ↗</a></article>
+          <article class="project-card reveal"><div class="project-top"><span>BENCHMARK</span><b>2026 <small>BETA</small></b></div><h3>SAGE-Bench</h3><p data-i18n="project2Desc">面向自主智能体风险评估的多维实验平台。</p><button class="project-status" disabled data-i18n="comingSoon">即将发布</button></article>
+          <article class="project-card reveal"><div class="project-top"><span>RESEARCH PLATFORM</span><b>V0.3 <small>ACTIVE</small></b></div><h3>SafeArena</h3><p data-i18n="project3Desc">用于红队测试、攻击复现与防御评估的可控环境。</p><button class="project-status" disabled data-i18n="internalTest">内部测试</button></article>
+        </div>
+      </section>
+
+      <section class="join" id="join">
+        <div class="join-orbit" aria-hidden="true"></div>
+        <div class="join-content reveal"><p class="section-index">06 / JOIN SAGE</p><h2 data-i18n="joinTitle">一起研究还没有<br>标准答案的问题。</h2><p data-i18n="joinDesc">我们长期招收本科生、硕士生、博士生和科研实习生。期待你具备扎实的编程基础、持续的好奇心与独立解决问题的能力。</p><a class="button light" href="mailto:chengpz@shu.edu.cn"><span data-i18n="contactUs">联系实验室</span><b>↗</b></a></div>
+        <div class="join-meta reveal"><div><span data-i18n="directions">开放方向</span><p data-i18n="directionList">大模型 · 智能体 · AI 安全 · 网络安全</p></div><div><span>EMAIL</span><p>chengpz@shu.edu.cn</p></div><div><span data-i18n="address">地址</span><p data-i18n="addressText">上海市宝山区上大路 99 号</p></div></div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="#top"><img class="brand-logo" src="/assets/icon/sage-logo-web.png" alt="" width="56" height="56" aria-hidden="true"><span class="brand-word">SAGE<span>LAB</span></span></a>
+      <p><span data-i18n="footerSchool">上海大学计算机工程与科学学院</span><br><span data-i18n="footerLab">人工智能认知与安全实验室</span><br><span class="footer-expansion">Secure AI, General Intelligence &amp; Evolution Lab</span></p>
+      <div><a href="#research" data-i18n="navResearch">研究</a><a href="#people" data-i18n="navPeople">成员</a><a href="#join" data-i18n="navJoin">加入我们</a></div>
+      <small>© 2026 SAGE Lab · Shanghai University</small>
+    </footer>
+
+    <dialog class="demo-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" aria-label="关闭">×</button>
+      <span class="dialog-kicker">INTERACTIVE PREVIEW</span><h2 id="dialog-title">SAGE Guard</h2><p class="dialog-desc"></p>
+      <div class="simulator"><div class="sim-head"><span>SAFETY EVALUATION</span><b class="sim-status">READY</b></div><div class="sim-body"><p class="sim-line">$ <span data-i18n="simPrompt">准备运行安全评测...</span></p><div class="sim-progress"><i></i></div><div class="sim-result"></div></div></div>
+      <button class="button primary run-sim" data-i18n="runDemo">运行演示</button>
+    </dialog>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
