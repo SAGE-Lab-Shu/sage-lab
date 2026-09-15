@@ -4,8 +4,8 @@
   <h1>SAGE Lab</h1>
 
   <p>
-    <strong>Secure AI, General Intelligence &amp; Evolution</strong><br>
-    上海大学人工智能认知与安全实验室
+    <strong>Laboratory for General Intelligence, Safety &amp; Trustworthiness</strong><br>
+    上海大学通用智能与安全可信实验室
   </p>
 
   <p>
@@ -24,9 +24,9 @@
 
 ## About
 
-SAGE Lab is the **Artificial Intelligence Cognition & Security Laboratory** at the School of Computer Engineering and Science, Shanghai University.
+SAGE Lab is the **Laboratory for General Intelligence, Safety & Trustworthiness** at the School of Computer Engineering and Science, Shanghai University.
 
-我们研究机器如何感知、推理、行动与持续进化，也研究它们如何在真实世界中保持可靠、安全与可控。实验室由**张新鹏教授**与**程彭洲助理教授**共同指导。
+我们研究机器如何感知、推理、行动与持续进化，也研究它们如何在真实世界中保持可靠、安全与可控。实验室教师成员包括**张新鹏、李晓强、程彭洲、杨军港、隋智美、刘洋**。
 
 ## Research
 
@@ -36,10 +36,15 @@ SAGE Lab is the **Artificial Intelligence Cognition & Security Laboratory** at t
 | **Autonomously Evolving Agents** | 递归自进化、在线自蒸馏、持续适应 |
 | **Artificial Intelligence Security** | 智能体安全、红队测试、可信与可控 AI |
 | **Multimedia Information Security** | 信息隐藏、数字取证、隐私保护 |
+| **Privacy Computing & Applied Cryptography** | 差分隐私、隐私保护机器学习、区块链与应用密码学 |
+| **Intelligent Distributed Systems** | 云计算智能调度、资源优化、智能计算基础设施 |
+| **Computer Vision & Generative AI** | 计算机视觉、视觉语言模型、生成式人工智能 |
 
 我们的目标是将认知与推理能力、自主智能体和系统化安全机制连接起来，探索通往**安全可信通用智能**的路径。
 
 ## Selected Work
+
+**Latest:** Two papers from the lab have been accepted to EMNLP 2026.
 
 - **Faithful Mobile GUI Agents with Guided Advantage Estimator** — ICML 2026 · [Paper](https://arxiv.org/abs/2605.01208) · [Code](https://github.com/Dreamer777hhw/Faithful-Agent)
 - **Hidden Ghost Hand** — EMNLP Findings 2025 · [Paper](https://aclanthology.org/2025.findings-emnlp.411/) · [Code](https://github.com/CTZhou-byte/AgentGhost)

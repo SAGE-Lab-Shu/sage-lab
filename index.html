@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="上海大学人工智能认知与安全实验室（SAGE Lab）官方网站" />
+    <meta name="description" content="上海大学通用智能与安全可信实验室（SAGE Lab）官方网站" />
     <meta name="theme-color" content="#f7f7f4" />
     <link rel="icon" type="image/png" href="/assets/icon/favicon.png" />
-    <title>SAGE Lab · Shanghai University</title>
+    <title>通用智能与安全可信实验室 · 上海大学</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -45,7 +45,8 @@
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy reveal">
           <h1 id="hero-title"><span data-i18n="heroLine1">让智能理解世界，</span><br><em data-i18n="heroLine2">也值得世界信任。</em></h1>
-          <p class="lab-expansion">SAGE LAB · SECURE AI, GENERAL INTELLIGENCE &amp; EVOLUTION</p>
+          <p class="lab-name" data-i18n="labName">上海大学通用智能与安全可信实验室</p>
+          <p class="lab-expansion">SAGE LAB · GENERAL INTELLIGENCE, SAFETY &amp; TRUSTWORTHINESS</p>
           <p class="hero-intro" data-i18n="heroIntro">我们研究机器如何感知、推理与行动，也研究它们如何在真实世界中保持可靠、安全与可控。</p>
           <div class="hero-actions">
             <a class="button primary" href="#research"><span data-i18n="explore">探索研究</span><b aria-hidden="true">↘</b></a>
@@ -73,10 +74,24 @@
         </aside>
       </section>
 
-      <section class="signal-strip" aria-label="实验室动态">
-        <div class="signal-label" data-i18n="latest">最新动态</div>
-        <div class="signal-copy"><span>2026.08</span><p data-i18n="newsText">实验室长期招收大模型、智能体与人工智能安全方向的本科生、硕士生、博士生及科研实习生。</p></div>
-        <a href="#join" data-i18n="details">详情 →</a>
+      <section class="news-window" aria-labelledby="news-title">
+        <div class="news-inner">
+          <header class="news-window-head">
+            <p id="news-title" data-i18n="latest">最新动态</p>
+          </header>
+          <!-- Newest first. Keep at most ten items and remove the oldest when adding the eleventh. -->
+          <ol class="news-list">
+            <li class="news-item news-featured">
+              <time datetime="2026-09">2026.09</time>
+              <div><strong data-i18n="newsPaperLabel">论文录用</strong><p data-i18n="newsText">祝贺！实验室 2 篇论文被 EMNLP 2026 接收。</p></div>
+            </li>
+            <li class="news-item">
+              <time datetime="2026-08">2026.08</time>
+              <div><strong data-i18n="newsRecruitLabel">招生信息</strong><p data-i18n="newsRecruitText">实验室长期招收大模型、智能体与人工智能安全方向的本科生、硕士生、博士生及科研实习生。</p></div>
+              <a href="#join" data-i18n="newsRecruitLink">查看招生信息 →</a>
+            </li>
+          </ol>
+        </div>
       </section>
 
       <section class="section people" id="people">
@@ -87,18 +102,34 @@
         </div>
         <div class="faculty-grid">
           <article class="faculty-card reveal">
-            <div class="portrait portrait-zhang"><img src="/assets/faculty/xinpeng-zhang.jpeg" alt="张新鹏教授" loading="lazy" width="287" height="341"></div>
+            <div class="portrait portrait-zhang"><img src="/assets/faculty/xinpeng-zhang-unified.jpg" alt="张新鹏教授" loading="lazy" width="640" height="800"></div>
             <div class="faculty-copy"><span data-i18n="academicLead">学术带头人</span><h3 data-i18n="zhangName">张新鹏 教授</h3><p data-i18n="zhangRole">上海大学计算机工程与科学学院院长 · 国家杰出青年科学基金获得者</p><div class="faculty-tags"><span data-i18n="aiSafety">人工智能安全</span><span data-i18n="mediaSecurity">多媒体信息安全</span></div><a href="https://cs.shu.edu.cn/info/1461/40581.htm" target="_blank" rel="noreferrer" data-i18n="profile">个人主页 ↗</a></div>
+          </article>
+          <article class="faculty-card reveal">
+            <div class="portrait"><img src="/assets/faculty/xiaoqiang-li-unified.jpg" alt="李晓强老师" loading="lazy" width="640" height="800"></div>
+            <div class="faculty-copy"><span data-i18n="facultyMember">教师成员</span><h3 data-i18n="liName">李晓强 副研究员</h3><p data-i18n="liRole">上海大学计算机工程与科学学院副院长 · 副研究员 · 博士生导师</p><div class="faculty-tags"><span data-i18n="computerVision">计算机视觉</span><span data-i18n="generativeAi">生成式人工智能</span></div><a href="https://cs.shu.edu.cn/info/1471/40731.htm" target="_blank" rel="noreferrer" data-i18n="profile">个人主页 ↗</a></div>
           </article>
           <article class="faculty-card reveal">
             <div class="portrait portrait-cheng"><img src="/assets/faculty/pengzhou-cheng.jpg" alt="程彭洲老师" loading="lazy" width="258" height="320"></div>
             <div class="faculty-copy"><span data-i18n="principalInvestigator">核心成员</span><h3 data-i18n="chengName">程彭洲 博士</h3><p data-i18n="chengRole">上海大学计算机工程与科学学院助理教授</p><div class="faculty-tags"><span data-i18n="multimodal">多模态推理</span><span data-i18n="agentSafety">智能体安全</span></div><a href="https://ctzhou-byte.github.io/" target="_blank" rel="noreferrer" data-i18n="profile">个人主页 ↗</a></div>
           </article>
+          <article class="faculty-card reveal">
+            <div class="portrait"><img src="/assets/faculty/jungang-yang-unified.jpg" alt="杨军港老师" loading="lazy" width="601" height="800"></div>
+            <div class="faculty-copy"><span data-i18n="facultyMember">教师成员</span><h3 data-i18n="yangName">杨军港 博士</h3><p data-i18n="yangRole">上海大学计算机工程与科学学院助理教授 · 硕士生导师</p><div class="faculty-tags"><span data-i18n="differentialPrivacy">差分隐私</span><span data-i18n="adversarialLearning">对抗学习</span><span data-i18n="federatedLearning">联邦学习</span></div><a href="https://cs.shu.edu.cn/info/1481/41461.htm" target="_blank" rel="noreferrer" data-i18n="profile">个人主页 ↗</a></div>
+          </article>
+          <article class="faculty-card reveal">
+            <div class="portrait"><img src="/assets/faculty/zhimei-sui-unified.jpg" alt="隋智美老师" loading="lazy" width="625" height="800"></div>
+            <div class="faculty-copy"><span data-i18n="facultyMember">教师成员</span><h3 data-i18n="suiName">隋智美 博士</h3><p data-i18n="suiRole">上海大学计算机工程与科学学院助理教授 · 硕士生导师</p><div class="faculty-tags"><span data-i18n="blockchain">区块链技术</span><span data-i18n="userPrivacy">用户隐私</span><span data-i18n="appliedCrypto">应用密码学</span></div><a href="https://cs.shu.edu.cn/info/1481/41371.htm" target="_blank" rel="noreferrer" data-i18n="profile">个人主页 ↗</a></div>
+          </article>
+          <article class="faculty-card reveal">
+            <div class="portrait"><img src="/assets/faculty/yang-liu-unified.jpg" alt="刘洋老师" loading="lazy" width="578" height="800"></div>
+            <div class="faculty-copy"><span data-i18n="facultyMember">教师成员</span><h3 data-i18n="liuName">刘洋 博士</h3><p data-i18n="liuRole">上海大学计算机工程与科学学院助理教授 · 硕士生导师</p><div class="faculty-tags"><span data-i18n="distributedSystems">分布式系统</span><span data-i18n="intelligentScheduling">智能调度</span><span data-i18n="cloudComputing">云计算</span></div><a href="https://cs.shu.edu.cn/info/1481/41291.htm" target="_blank" rel="noreferrer" data-i18n="profile">个人主页 ↗</a></div>
+          </article>
         </div>
         <div class="student-head"><h3 data-i18n="students">学生成员</h3><span data-i18n="studentNote">成员资料持续更新</span></div>
         <div class="student-grid">
-          <article class="student-card"><div class="student-avatar photo-avatar"><img src="/assets/students/Xinjie Lai.png" alt="Xinjie Lai" loading="lazy" width="375" height="375"></div><h4>Xinjie Lai</h4><p data-i18n="doctoral2025">2025级博士研究生</p><span>Agent Behavior Safety</span></article>
-          <article class="student-card"><div class="student-avatar photo-avatar"><img src="/assets/students/Weihao Zuo.png" alt="Weihao Zuo" loading="lazy" width="375" height="375"></div><h4>Weihao Zuo</h4><p data-i18n="doctoral2025">2025级博士研究生</p><span>Agent Behavior Safety</span></article>
+          <article class="student-card"><div class="student-avatar photo-avatar"><img src="/assets/students/xinjie-lai-unified.jpg" alt="Xinjie Lai" loading="lazy" width="640" height="800"></div><h4>Xinjie Lai</h4><p data-i18n="doctoral2025">2025级博士研究生</p><span>Agent Behavior Safety</span></article>
+          <article class="student-card"><div class="student-avatar photo-avatar"><img src="/assets/students/weihao-zuo-unified.jpg" alt="Weihao Zuo" loading="lazy" width="640" height="800"></div><h4>Weihao Zuo</h4><p data-i18n="doctoral2025">2025级博士研究生</p><span>Agent Behavior Safety</span></article>
           <article class="student-card"><div class="student-avatar a3">JW</div><h4 data-i18n="student3">学生姓名</h4><p data-i18n="master">硕士研究生</p><span>Model Security</span></article>
           <article class="student-card"><div class="student-avatar a4">LM</div><h4 data-i18n="student4">学生姓名</h4><p data-i18n="undergrad">本科生</p><span>Media Forensics</span></article>
           <a class="student-card join-card" href="#join"><span>+</span><h4 data-i18n="youMaybe">也许下一个是你</h4><p data-i18n="viewOpenings">查看开放方向 →</p></a>
@@ -134,6 +165,24 @@
             <span class="row-number">04</span>
             <div><h3 data-i18n="r4Title">多媒体信息安全</h3><p data-i18n="r4Text">探索隐写、取证与隐私保护中的理论和方法，守护数字内容的真实性与机密性。</p></div>
             <div class="keyword-stack"><span>Forensics</span><span>Steganography</span><span>Privacy</span></div>
+            <span class="row-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="research-row reveal" tabindex="0">
+            <span class="row-number">05</span>
+            <div><h3 data-i18n="r5Title">隐私计算与应用密码学</h3><p data-i18n="r5Text">面向智能系统与区块链场景，研究差分隐私、隐私保护机器学习、用户隐私和实用密码协议。</p></div>
+            <div class="keyword-stack"><span>Differential Privacy</span><span>Federated Learning</span><span>Cryptography</span></div>
+            <span class="row-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="research-row reveal" tabindex="0">
+            <span class="row-number">06</span>
+            <div><h3 data-i18n="r6Title">智能分布式系统</h3><p data-i18n="r6Text">围绕云计算与智能计算基础设施，研究资源调度、性能建模和云原生系统优化。</p></div>
+            <div class="keyword-stack"><span>Distributed Systems</span><span>Cloud Scheduling</span><span>AI Infrastructure</span></div>
+            <span class="row-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="research-row reveal" tabindex="0">
+            <span class="row-number">07</span>
+            <div><h3 data-i18n="r7Title">计算机视觉与生成式人工智能</h3><p data-i18n="r7Text">研究视觉理解、视觉语言模型与内容生成方法，提升模型的感知、生成和可信推理能力。</p></div>
+            <div class="keyword-stack"><span>Computer Vision</span><span>AIGC</span><span>Vision-Language Models</span></div>
             <span class="row-arrow" aria-hidden="true">↗</span>
           </article>
         </div>
@@ -279,13 +328,13 @@
       <section class="join" id="join">
         <div class="join-orbit" aria-hidden="true"></div>
         <div class="join-content reveal"><p class="section-index">06 / JOIN SAGE</p><h2 data-i18n="joinTitle">一起研究还没有<br>标准答案的问题。</h2><p data-i18n="joinDesc">我们长期招收本科生、硕士生、博士生和科研实习生。期待你具备扎实的编程基础、持续的好奇心与独立解决问题的能力。</p><a class="button light" href="mailto:chengpz@shu.edu.cn"><span data-i18n="contactUs">联系实验室</span><b>↗</b></a></div>
-        <div class="join-meta reveal"><div><span data-i18n="directions">开放方向</span><p data-i18n="directionList">大模型 · 智能体 · AI 安全 · 网络安全</p></div><div><span>EMAIL</span><p>chengpz@shu.edu.cn</p></div><div><span data-i18n="address">地址</span><p data-i18n="addressText">上海市宝山区上大路 99 号</p></div></div>
+        <div class="join-meta reveal"><div><span data-i18n="directions">开放方向</span><p data-i18n="directionList">通用智能 · 智能体 · AI 安全 · 隐私计算 · 智能系统 · 计算机视觉</p></div><div><span>EMAIL</span><p>chengpz@shu.edu.cn</p></div><div><span data-i18n="address">地址</span><p data-i18n="addressText">上海市宝山区上大路 99 号</p></div></div>
       </section>
     </main>
 
     <footer>
       <a class="brand footer-brand" href="#top"><img class="brand-logo" src="/assets/icon/sage-logo-web.png" alt="" width="56" height="56" aria-hidden="true"><span class="brand-word">SAGE<span>LAB</span></span></a>
-      <p><span data-i18n="footerSchool">上海大学计算机工程与科学学院</span><br><span data-i18n="footerLab">人工智能认知与安全实验室</span><br><span class="footer-expansion">Secure AI, General Intelligence &amp; Evolution Lab</span></p>
+      <p><span data-i18n="footerSchool">上海大学计算机工程与科学学院</span><br><span data-i18n="footerLab">通用智能与安全可信实验室</span><br><span class="footer-expansion">Laboratory for General Intelligence, Safety &amp; Trustworthiness</span></p>
       <div><a href="#research" data-i18n="navResearch">研究</a><a href="#people" data-i18n="navPeople">成员</a><a href="#join" data-i18n="navJoin">加入我们</a><a href="https://github.com/SAGE-Lab-Shu" target="_blank" rel="noreferrer">GitHub ↗</a></div>
       <small>© 2026 SAGE Lab · Shanghai University</small>
     </footer>
